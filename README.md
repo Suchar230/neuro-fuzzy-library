@@ -43,6 +43,7 @@ This example presents clustering algorithms:
 1. fubi (fuzzy biclustering)  (__Citation request__ If you use this algorithm please cite [^fubi])
 1. fcom
 1. dbscan
+1. grdbscan (__Citation request__ If you use this algorithm please cite [^grdbscan])
 
 
 ### make 3
@@ -170,5 +171,9 @@ This example presents neuro-fuzzy systems for
 		year = "2022"
 	}
 	```
+	
+[^grdbscan]: Dawid Suchy, Krzysztof Siminski, GrDBSCAN: granular density-based clustering algorithm,
+	```
 
+	```
 
