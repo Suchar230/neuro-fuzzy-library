@@ -85,9 +85,9 @@ namespace ksi
          */
         std::size_t findMaxMembIndex(const std::size_t datasetSize, const std::vector<double> &memberships, const double psi, const std::vector<bool> &processed);
 
-        /** @return The method calculates non-expanded neighbourhoodness value for every granule (neighbourhoods memberships vector) relative to the passed one.
+        /** @return The method calculates non-expanded neighbourhoodness value for every granule (neighbours memberships vector) relative to the passed one.
          *  @param granularDs granules: granulated dataset
-         *  @param granule set of descriptors: granule for which to find non-expanded neighbourhoods memberships vector.
+         *  @param granule set of descriptors: granule for which to find non-expanded neighbours memberships vector.
          *  @return vector of memberships values
          *  @author Dawid Suchy
          */
