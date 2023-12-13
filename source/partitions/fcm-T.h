@@ -278,6 +278,7 @@ void ksi::fcm_T<T>::randomise(std::vector<std::vector<T>> & m)
       for (auto & wiersz : m)
          for (auto & liczba : wiersz)
             liczba = rozklad(silnik);
+        // std::generate(wiersz.begin(), wiersz.end(), [&silnik, &rozklad] () {return rozklad(silnik);});
    }
    CATCH;
 }
